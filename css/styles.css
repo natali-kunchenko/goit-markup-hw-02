@@ -30,6 +30,14 @@ a {
 .web {
     color: var(--color-hover);
 }
+.logo-footer {
+    color: var(--color-hero);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
 .navigation, .adress {
     color: var(--color-main);
     font-family: 'Roboto', sans-serif;
@@ -40,6 +48,12 @@ a {
 }
 .contacts {
     color: var(--color-p);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+
 }
 .navigation:hover {
     color: var(--color-hover);
@@ -64,6 +78,7 @@ a {
     color: var(--color-hero);
     font-weight: 700;
     font-size: 16px;
+    letter-spacing: 0.06em;
     line-height: 1.87;
     background-color: var(--color-hover);
 }
@@ -129,7 +144,6 @@ footer {
 }
 .adress {
     color: var(--color-hero);
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -169,14 +183,12 @@ footer {
     background-color: var(--color-hover);
 }
 .project-name {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .project-type {
     color: var(--color-p);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
