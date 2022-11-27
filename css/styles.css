@@ -78,6 +78,7 @@ a {
     color: var(--color-hero);
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
     letter-spacing: 0.06em;
     line-height: 1.87;
     background-color: var(--color-hover);
@@ -157,6 +158,12 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.contacts-footer:hover {
+    color: var(--color-hover);
+}
+.contacts-footer:focus {
+    color: var(--color-hover);
+}
 .filter {
     color: var(--color-main);
     background: var(--color-background-light);
@@ -168,6 +175,7 @@ footer {
     letter-spacing: 0.03em;
     border-color: var(--color-background-light);
     border-radius: 4px;
+    cursor: pointer;
     border-style: none;
 }
 .filter:active {
